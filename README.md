@@ -4,6 +4,12 @@
 
 This project aims to build a machine learning model to **predict the probability of a pit stop occurring in the next lap** during F1 races. This is a **probability prediction task** where you must output probability scores (0.0 to 1.0) for each test observation.
 
+## Portfolio summary
+
+The notebook frames a race-strategy classification problem: estimate the probability of a pit stop on the next lap from race, driver, tyre, lap, and position information. The documented dataset contains 439,140 training observations and 188,166 test observations; ROC-AUC is the stated evaluation metric.
+
+**Skills demonstrated:** event-level data analysis, feature interpretation, probability-based classification, and evaluation with ROC-AUC. The repository contains the notebook but not the competition CSV files, and no model score is claimed here.
+
 ### Dataset Summary
 
 - **Training Set:** 439,140 race lap observations (IDs: 0-439139)
